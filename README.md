@@ -1,13 +1,25 @@
-# unlocker
+# Unlock Scene
+This script show all objects down the hierarchy and unlocked all attributes, layers, etc.
 
 
-Install
--
-Put the script in a folder with all the scripts\
-C:\Users\username\Documents\maya\scripts
+## Install
+- Copy `unlock.py` into your maya script folder.
+- Run the script below.
+```
+import unlock
+reload (unlock)
+unlock.build()
+```
 
-1. Select the first group
-2. Run in the script editor this code\
-import unlocker\
-reload(unlocker)\
-unlocker.build()
+## Another way to install
+
+- Copy all the code in the file `unlock.py`
+- Paste on script editor
+- Add to end ``build()``
+- Run all script
+
+## Usage
+
+- Select first element on hierarchy
+- Run script
+
