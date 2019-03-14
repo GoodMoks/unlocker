@@ -51,7 +51,7 @@ def unlockAttr(obj=None, attr=None):
                     '.visibility']
 
     for o in obj:
-        for a in attr:
+        for a in attrList:
             full_Attr = o + a
             try:
                 cmds.setAttr(full_Attr, l=False, k=True)
